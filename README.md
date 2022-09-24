@@ -23,3 +23,5 @@ git add .
 2. commit | git commit -nombre_rama 'comentario'  
 3. server | git clone descargar la primera vez, git pull para bajar los cambios
 4. git push | subir al repo 
+
+Padding y margin, en sentido de las manecillas del relog comenzando por las 12
