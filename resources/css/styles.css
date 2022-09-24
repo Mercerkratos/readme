@@ -9,6 +9,41 @@ h1, h3{
 
 }
 /* estilos generales*/
+/* Inicio del Nav-block*/
+.nav-block, .nav-flex {
+    background-color: #7d7c7c;
+    border: 1px solid #000000; 
+    margin-bottom: 5px; 
+}
+.nav {
+    display: inline-block;
+}
+.nav-block ul, .nav-flex ul{
+    list-style: none;
+
+}
+.nav-block li, .nav-flex li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.nav-block a, .nav-flex a{
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 40px;
+    border: 1px solid #000000;
+    padding: 15px;
+}
+/* Fin del Nav-block*/
+
+/*Inicio del Nav-flex*/
+.nav-flex .nav{
+    display: flex;
+    /*justify-content: space-between;*/
+    justify-content: right;
+    flex-direction: row-reverse;
+}
+
+/*Fin del Nav-flex*/
 .container{
     background-color: bisque;
     display: flex;
