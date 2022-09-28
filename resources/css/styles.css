@@ -1,6 +1,16 @@
 html{
     margin: 0;
 }
+/*variables*/
+principal-color {
+    --main-bg-color: #076216;
+    --grey-solid-color: #8a8a8acc;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;   
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -16,9 +26,9 @@ h1, h3{
 /* estilos generales*/
 /* Inicio del Nav-block*/
 .nav-block, .nav-flex {
-    background-color: #7d7c7c;
-    border: 1px solid #000000; 
-    margin-bottom: 5px; 
+    background-color: #bfbfbfcc;
+    border: 1px solid var(--grey-solid-color);
+    margin-bottom: 5px;
 }
 .nav {
     display: inline-block;
@@ -33,9 +43,9 @@ h1, h3{
 }
 .nav-block a, .nav-flex a{
     text-decoration: none;
-    color: #ffffff;
-    line-height: 40px;
-    border: 1px solid #000000;
+    color: #076216;
+    line-height: 47px;
+    border: 1px solid var(--grey-solid-color);
     padding: 15px;
 }
 /* Fin del Nav-block*/
@@ -45,10 +55,15 @@ h1, h3{
     display: flex;
     /*justify-content: space-between;*/
     justify-content: right;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
 }
 
 /*Fin del Nav-flex*/
+.carrusel-image img{
+    height: 300px;
+    width: auto;
+}
+
 .container{
     background-color: bisque;
     display: flex;
