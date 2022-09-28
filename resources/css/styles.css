@@ -25,7 +25,7 @@ h1, h3{
 }
 /* estilos generales*/
 /* Inicio del Nav-block*/
-.nav-block, .nav-flex {
+.nav-flex {
     background-color: #bfbfbfcc;
     border: 1px solid var(--grey-solid-color);
     margin-bottom: 5px;
