@@ -63,6 +63,13 @@ h1, h3{
     height: 300px;
     width: auto;
 }
+.carrusel-image ul{
+    display: flex;
+    
+    justify-content:start;
+    align-items:flex-start;
+}
+
 
 .container{
     background-color: bisque;
